@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Tasks App</string>
+    <string name="pet_logo">pet logo</string>
+    <string name="delete_text">delete pet</string>
+</resources>
