@@ -8,11 +8,15 @@ import androidx.room.PrimaryKey
 data class Dogs(
     @ColumnInfo(name = "id")
     @PrimaryKey(autoGenerate = true)
-    val dogId : Int ,
+    val dogId : Int,
     @ColumnInfo(name = "name")
     val dogName : String,
     @ColumnInfo(name = "breed")
     val dogBreed : String,
     @ColumnInfo(name="age")
-    val dogAge : Int
+    val dogAge : Int,
+    @ColumnInfo(name = "color")
+    val dogsColor : String,
+    @ColumnInfo(name = "vaccine_status" , defaultValue = "false")
+    val vaccinated : Boolean = false
 )
