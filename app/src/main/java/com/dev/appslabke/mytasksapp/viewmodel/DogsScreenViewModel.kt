@@ -1,6 +1,5 @@
 package com.dev.appslabke.mytasksapp.viewmodel
 
-import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.dev.appslabke.mytasksapp.repositorty.DogsRepository
@@ -39,121 +38,181 @@ class DogsScreenViewModel @Inject constructor(
                 dogId = 1,
                 dogName = "Papa",
                 dogAge = 2 ,
-                dogBreed = "German Lackie"
+                dogBreed = "German Lackie" ,
+                dogsColor = "Brown" ,
+                vaccinated = true,
+                dogGender = "Male"
             ) ,
             Dogs(
                 dogId = 2,
                 dogName = "Nkoko",
                 dogAge = 5,
-                dogBreed = "German Shephered"
+                dogBreed = "German Shephered",
+                dogsColor = "White",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 3,
                 dogName = "Kimonji",
                 dogAge = 3 ,
-                dogBreed = "Shitzu"
+                dogBreed = "Shitzu",
+                dogsColor = "White and Black",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 4,
                 dogName = "Boss",
                 dogAge = 1 ,
-                dogBreed = "Cockal Spaniol"
+                dogBreed = "Cockal Spaniol",
+                dogsColor = "White and Grey",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 5,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 6,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Brown and Black",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 7,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Black",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 8,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Grey",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 9,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White ",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 10,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White and Black",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 11,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White and Grey",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 12,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Ginger",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 13,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White and Ginger",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 14,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White and Black",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 15,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 16,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "White and Black",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 17,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Black",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 18,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Brown",
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 19,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Black",
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 20,
                 dogName = "Kioko",
                 dogAge = 6 ,
-                dogBreed = "Malamut"
+                dogBreed = "Malamut",
+                dogsColor = "Ginger",
+                vaccinated = true,
+                dogGender = "Male"
             )
 
         )
