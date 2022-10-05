@@ -59,6 +59,8 @@ fun DogsScreen(
             .padding(horizontal = 16.dp, vertical = 16.dp)
     ) {
 
+        //new changes in dogs screen
+
         Column(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.Start,
