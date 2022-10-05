@@ -7,16 +7,17 @@ import com.dev.appslabke.mytasksapp.room.dao.DogsDao
 import com.dev.appslabke.mytasksapp.room.entity.Dogs
 
 @Database(
-    version = 3,
+    version = 4,
     entities = [Dogs::class],
     exportSchema = true ,
     autoMigrations = [
         AutoMigration(
-            from = 2 ,
-            to = 3,
+            from = 3 ,
+            to = 4,
             spec = DogsDatabase.TestAutoMigration::class
         )
     ]
+
 )
 abstract class DogsDatabase : RoomDatabase() {
     abstract fun getDao() : DogsDao
@@ -24,3 +25,6 @@ abstract class DogsDatabase : RoomDatabase() {
     @RenameColumn(tableName = "dogs_table", fromColumnName = "color" , toColumnName = "dogs_color")
     class TestAutoMigration : AutoMigrationSpec
 }
+
+
+

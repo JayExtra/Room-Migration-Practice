@@ -40,7 +40,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 2 ,
                 dogBreed = "German Lackie" ,
                 dogsColor = "Brown" ,
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ) ,
             Dogs(
                 dogId = 2,
@@ -48,7 +49,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 5,
                 dogBreed = "German Shephered",
                 dogsColor = "White",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 3,
@@ -56,7 +58,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 3 ,
                 dogBreed = "Shitzu",
                 dogsColor = "White and Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 4,
@@ -64,7 +67,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 1 ,
                 dogBreed = "Cockal Spaniol",
                 dogsColor = "White and Grey",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 5,
@@ -72,7 +76,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 6,
@@ -80,7 +85,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Brown and Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 7,
@@ -88,7 +94,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 8,
@@ -96,7 +103,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Grey",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 9,
@@ -104,7 +112,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White ",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 10,
@@ -112,7 +121,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White and Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 11,
@@ -120,7 +130,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White and Grey",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 12,
@@ -128,7 +139,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Ginger",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 13,
@@ -136,7 +148,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White and Ginger",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 14,
@@ -144,7 +157,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White and Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 15,
@@ -152,7 +166,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 16,
@@ -160,7 +175,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "White and Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 17,
@@ -168,7 +184,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 18,
@@ -176,7 +193,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Brown",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             ),
             Dogs(
                 dogId = 19,
@@ -184,7 +202,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Black",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Female"
             ),
             Dogs(
                 dogId = 20,
@@ -192,7 +211,8 @@ class DogsScreenViewModel @Inject constructor(
                 dogAge = 6 ,
                 dogBreed = "Malamut",
                 dogsColor = "Ginger",
-                vaccinated = true
+                vaccinated = true,
+                dogGender = "Male"
             )
 
         )

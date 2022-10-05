@@ -18,5 +18,7 @@ data class Dogs(
     @ColumnInfo(name = "color")
     val dogsColor : String,
     @ColumnInfo(name = "vaccine_status" , defaultValue = "false")
-    val vaccinated : Boolean = false
+    val vaccinated : Boolean = false,
+    @ColumnInfo(name = "dog_gender" , defaultValue = "")
+    val dogGender : String
 )
